@@ -15,3 +15,18 @@ npx prisma db push
 npx prisma seed
 
 ```
+
+you can checkout the database with prisma studio as
+
+```bash
+npx prisma studio
+```
+
+to run the app simply run
+
+```bash
+npm run dev
+```
+
+By default it runs on <http://localhost:3000> for the app  
+you can check the backend with <http://localhost:3000/api/graphql>
